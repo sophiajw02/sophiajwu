@@ -1,6 +1,5 @@
 import { ReactNode} from 'react';
 
-
 const Experience = (): ReactNode => {
     return (
         <div className="flex flex-col xl:max-w-5xl md:max-w-xl pt-24" 
@@ -17,8 +16,8 @@ const Experience = (): ReactNode => {
                 id='experienceUKG'
                 style={{ flexGrow: 1 }}>
                 <img
-                    className="h-96 w-full rounded-t-lg object-cover md:h-auto md:w-48 md:!rounded-none md:!rounded-s-lg"
-                    src='src\images\example.png'
+                    className="h-96 w-full rounded-t-lg object-cover md:h-auto md:w-60 md:!rounded-none md:!rounded-s-lg"
+                    src='\images\ukg_logo.jpg'
                     alt='ukg logo' 
                 />
                 <div className="flex flex-col justify-start p-6">
@@ -34,6 +33,7 @@ const Experience = (): ReactNode => {
                         <li>
                             Worked on the Core Payroll team, quality testing and ensuring payrolls features worked as properly intended for over 75,000+ client companies
                         </li>
+                        <li>Introduced localization for many pages within the UKG Pro product</li>
                         <li>
                             Implemented unit, integration, and automated tests on various features, using C#, Microsoft SQL Server, and NUnit Testing Framework and resolved issues with both automated and manual tests, leading to 15% more issues being resolved prior to release.
                         </li>

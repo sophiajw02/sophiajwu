@@ -18,7 +18,7 @@ const Contact = (): ReactNode => {
                 I'm currently looking for full-time opportunities. If you think I'd be a good fit for your team, feel free to reach out to me!
                 </p>
                 <p>
-                You can find me on LinkedIn, GitHub, or email me directly at
+                You can find me on LinkedIn, GitHub, or email me directly!
                 </p>
             </div>
 
@@ -26,7 +26,7 @@ const Contact = (): ReactNode => {
                     id='email-link'
                     href={`mailto:${'sophiajwu02@gmail.com'}`}>
                     <span className="absolute top-0 left-0 w-48 h-48 -mt-1 transition-all duration-700 ease-in-out rotate-45 -translate-x-56 -translate-y-24 bg-primary opacity-100 group-hover:-translate-x-2"></span>
-                    <span className="relative w-full text-center text-off-white font-lexendExa transition-colors duration-700 ease-in-out group-hover:text-dark-black">Let's Connect!</span>
+                    <span className="relative w-full text-center text-off-white font-lexendExa transition-colors duration-700 ease-in-out group-hover:text-dark-black">Say Hello</span>
                     <span className="absolute inset-0 border-2 border-primary rounded-full"></span>
             </a>
             

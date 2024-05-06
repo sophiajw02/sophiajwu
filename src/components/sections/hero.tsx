@@ -16,11 +16,6 @@ const Hero = (): ReactNode => {
                 <p className='mt-3 mb-6 text-light-grey xl:text-xl text-lg font-light font-lexend'>
                     I'm a Software Developer with a passion for solving problems and learning new things!
                 </p>
-                {/* <a className='py-3 px-8 bg-button-green rounded-full text-off-white text-lg font-lexendExa shadow-btn hover:shadow-btn-hover'
-                    id='email-link'
-                    href={`mailto:${'sophiajwu02@gmail.com'}`}>
-                    Let's Connect!
-                </a> */}
                 <a className="relative inline-flex items-center justify-start inline-block px-5 py-3 overflow-hidden font-semibold rounded-full group shadow-btn"
                     id='email-link'
                     href={`mailto:${'sophiajwu02@gmail.com'}`}>
@@ -33,8 +28,7 @@ const Hero = (): ReactNode => {
             <div className='flex items-center justify-center w-1/2' 
                 id='img'>
                 <img className='rounded-full shadow-image w-full sm:w-96 h-auto mx-5'
-                    //src='src\images\me.jpg'
-                    src='https://i.imgur.com/TNPm7Ao.png'
+                    src='\images\me.jpg'
                     alt='personal photo'
                 />
             </div>
