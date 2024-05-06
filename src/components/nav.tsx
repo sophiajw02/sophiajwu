@@ -38,7 +38,7 @@ const Nav = ({ isHome }) => {
 
     return (
         <nav 
-            className='flex items-center justify-center fixed w-full top-0 z-100 md:px-20 px-5 py-3 font-lexendExa bg-background' 
+            className='flex items-center justify-center fixed w-full top-0 z-50 md:px-20 px-5 py-3 font-lexendExa bg-background' 
             style={{ 
                 display: 'flex', 
                 justifyContent: 'space-between',

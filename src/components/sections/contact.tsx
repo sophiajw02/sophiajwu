@@ -8,7 +8,7 @@ const Contact = (): ReactNode => {
         <div className='flex flex-col justify-center items-center xl:max-w-5xl md:max-w-xl pt-24' 
             id='contact'>
 
-            <h2 className="text-4xl text-primary font-semibold font-lexendExa mb-3 md:mx-5 mx-10">
+            <h2 className="text-4xl text-primary font-semibold font-lexendExa mb-3 md:mx-5 mx-10 text-center">
                 Wanna say hello?
             </h2>
 

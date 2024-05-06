@@ -26,7 +26,7 @@ const Hero = (): ReactNode => {
             </div>
 
             <div className='flex items-center justify-center w-1/2' 
-                id='img'>
+                id='img-container'>
                 <img className='rounded-full shadow-image w-full sm:w-96 h-auto mx-5'
                     src='\images\me.jpg'
                     alt='personal photo'

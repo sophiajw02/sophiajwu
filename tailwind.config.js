@@ -25,7 +25,7 @@ export default {
         inter: ['Inter', 'sans-serif'],
       },
       boxShadow: {
-        'image': '0px 0px 50px 20px rgba(91, 97, 81, 1)',
+        'image': '0px 0px 50px 20px rgba(120, 160, 131, 0.7)',
         'btn': '0px 8px 8px rgba(0, 0, 0, 0.25)',
         'btn-hover': '0px 0px 15px rgba(136, 140, 135, 0.75)',
       },

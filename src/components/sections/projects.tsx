@@ -21,10 +21,10 @@ const Experience = (): ReactNode => {
                 </a>
             </div>
             
-            <div className="flex flex-col flex-grow rounded-lg bg-tertiary text-surface shadow-secondary-1 mx-10 my-3 md:flex-row shadow-md"
+            <div className="flex flex-col lg:flex-row rounded-lg bg-tertiary shadow-secondary-1 mx-10 my-3 shadow-md"
                 id='project_gtmarket'>
                 <img
-                    className="h-96 w-full rounded-t-lg object-cover md:h-auto md:w-80 md:!rounded-none md:!rounded-s-lg"
+                    className="h-96 w-auto lg:h-auto lg:w-80 rounded-t-lg object-cover lg:!rounded-none lg:!rounded-s-lg"
                     src='\images\gtmarketplace.png'
                     alt='georgia tech marketplace' 
                 />
@@ -35,10 +35,10 @@ const Experience = (): ReactNode => {
                     <p className='text-sm text-off-white font-rubik tracking-wide my-3 mx-10'>
                         A marketplace web application for Georgia Tech students to buy and sell goods. This platform's aim was to create a safe and secure environment for students to buy and sell goods within the Georgia Tech community.
                     </p>
-                    <div className='flex flex-row text-off-white font-rubik tracking-wide mt-3 mx-10 gap-x-2'>
+                    <div className='flex flex-wrap text-off-white font-rubik tracking-wide mt-3 mx-10 gap-x-2 gap-y-2 text-center'>
                         <p className='bg-primary rounded-full px-4 py-2'> React.js </p>
                         <p className='bg-primary rounded-full px-4 py-2'> TypeScript </p>
-                        <p className='bg-primary rounded-full px-4 py-2'> Tailwind CSS </p>
+                        <p className='bg-primary rounded-full px-4 py-2'> Tailwind</p>
                         <p className='bg-primary rounded-full px-4 py-2'> Firebase </p>
                     </div>
                     <a className='mx-10 mt-3 text-light-grey hover:text-dark-grey transition-colors duration-300'
@@ -62,10 +62,10 @@ const Experience = (): ReactNode => {
                     <p className='text-sm text-off-white font-rubik tracking-wide my-3 mx-10'>
                         A project that I worked on with a team of 5 to create a Python course geared for individuals with a non-CS background. The course was designed to teach engineers how to use Python for data analysis and visualization.
                     </p>
-                    <div className='flex flex-row text-off-white font-rubik tracking-wide mt-3 mx-10 gap-x-2'>
+                    <div className='flex flex-wrap text-off-white font-rubik tracking-wide mt-3 mx-10 gap-x-2 gap-y-2 text-center'>
                         <p className='bg-primary rounded-full px-4 py-2'> Next.js </p>
                         <p className='bg-primary rounded-full px-4 py-2'> TypeScript </p>
-                        <p className='bg-primary rounded-full px-4 py-2'> Tailwind CSS </p>
+                        <p className='bg-primary rounded-full px-4 py-2'> Tailwind</p>
                         <p className='bg-primary rounded-full px-4 py-2'> Figma </p>
                     </div>
                     <div className='flex flex-row text-off-white mx-10 mt-3 gap-x-3'>
@@ -96,7 +96,7 @@ const Experience = (): ReactNode => {
                     <p className='text-sm text-off-white font-rubik tracking-wide my-3 mx-10'>
                         Led a team of 4 to create a puzzle-based Unity game. Run around as a rat to solve various puzzles to obtain cheese as a reward.
                     </p>
-                    <div className='flex flex-row text-off-white font-rubik tracking-wide mt-3 mx-10 gap-x-2'>
+                    <div className='flex flex-wrap text-off-white font-rubik tracking-wide mt-3 mx-10 gap-x-2 gap-y-2 text-center'>
                         <p className='bg-primary rounded-full px-4 py-2'> Unity </p>
                         <p className='bg-primary rounded-full px-4 py-2'> C# </p>
                     </div>
