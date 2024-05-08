@@ -35,6 +35,11 @@ const Experience = (): ReactNode => {
                     <p className='text-sm text-off-white font-rubik tracking-wide my-3 mx-10'>
                         A marketplace web application for Georgia Tech students to buy and sell goods. This platform's aim was to create a safe and secure environment for students to buy and sell goods within the Georgia Tech community.
                     </p>
+                    <p className='text-sm text-off-white font-rubik tracking-wide mx-10'>
+                        <span className='font-semibold text-lg'>Demo User</span><br />
+                        Email: demouser@gatech.edu<br />
+                        Password: 12341234
+                    </p>
                     <div className='flex flex-wrap text-off-white font-rubik tracking-wide mt-3 mx-10 gap-x-2 gap-y-2 text-center'>
                         <p className='bg-primary rounded-full px-4 py-2'> React.js </p>
                         <p className='bg-primary rounded-full px-4 py-2'> TypeScript </p>
