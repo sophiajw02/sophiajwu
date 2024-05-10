@@ -33,7 +33,7 @@ const About = (): ReactNode => {
                     <p>
                     My interest started back when I was 10 and got my first computer. I was captured by the design of game and app UIs with their ability to provide easy accessibility while maintaining a beautiful design.
                     </p>
-                    <p>Front-end developer brings me the joy of being able to bridge creativity with engineering.</p>
+                    <p>Front-end development brings me the joy of being able to bridge creativity with engineering.</p>
                     <p>
                     When I’m not creating and learning, I’m probably spending time with my bunny, listening to music, or playing games from the Fire Emblem series.
                     </p>
