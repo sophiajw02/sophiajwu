@@ -26,7 +26,7 @@ const Nav = ({ isHome }) => {
         const isTop = window.scrollY < 50;
         if (isTop !== scrolledToTop) {
             setScrolledToTop(!scrolledToTop);
-            setNavShadow(isTop ? '' : '0px 4px 8px rgba(0, 0, 0, 0.25)');
+            setNavShadow(isTop ? '' : '0px 2px 5px rgba(0, 0, 0, 0.10)');
         }
         };
 
@@ -65,18 +65,18 @@ const Nav = ({ isHome }) => {
                             <path fillRule="evenodd" 
                                 clipRule="evenodd" 
                                 d="M4 5C3.44772 5 3 5.44772 3 6C3 6.55228 3.44772 7 4 7H20C20.5523 7 21 6.55228 21 6C21 5.44772 20.5523 5 20 5H4ZM7 12C7 11.4477 7.44772 11 8 11H20C20.5523 11 21 11.4477 21 12C21 12.5523 20.5523 13 20 13H8C7.44772 13 7 12.5523 7 12ZM13 18C13 17.4477 13.4477 17 14 17H20C20.5523 17 21 17.4477 21 18C21 18.5523 20.5523 19 20 19H14C13.4477 19 13 18.5523 13 18Z" 
-                                fill="#ffffff">
+                                fill="#59545C">
                             </path> 
                         </svg>
                     </button>
                     {isMenuOpen && (
-                        <div className='flex items-center justify-center absolute top-full left-0 w-full bg-secondary shadow-md text-center'>
+                        <div className='flex items-center justify-center absolute top-full left-0 w-full bg-tertiary shadow-lg text-center'>
                             <ul>
                                 {config.navLinks.map(({ url, name }, i) => (
                                     <li className='py-3'
                                         key={i}>
                                     <a
-                                        className='text-off-white font-light'
+                                        className='text-off-white font-light hover:text-gray-300 transition-colors duration-100'
                                         href={url}
                                         onClick={(e) => {
                                           e.preventDefault();
@@ -95,7 +95,7 @@ const Nav = ({ isHome }) => {
             ) : (
                 <ul className='flex flex-wrap space-x-8'>
                     {config.navLinks.map(({ url, name }, i) => (
-                        <li className='text-off-white text-md hover:text-gray-300 transition-colors duration-100'
+                        <li className='text-off-black text-md hover:text-gray-300 transition-colors duration-100'
                             key={i}
                             style={{ transitionDelay: `${isMounted ? i * 100 : 0}ms` }}
                         >

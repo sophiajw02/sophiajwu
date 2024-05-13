@@ -12,19 +12,19 @@ const About = (): ReactNode => {
                 <h2 className="text-4xl text-primary font-semibold font-lexendExa">
                     About Me
                 </h2>
-                <div className='flex-grow mx-4 border-t-2 border-light-grey invisible md:visible'></div>
-                <a className="relative inline-flex items-center justify-start inline-block px-5 py-3 text-semibold overflow-hidden rounded-full group shadow-btn"
+                <div className='flex-grow mx-4 border-t-2 border-secondary invisible md:visible'></div>
+                <a className="relative inline-flex items-center justify-start inline-block px-5 py-3 overflow-hidden rounded-full group shadow-btn"
                     id='email-link'
                     href='/resume.pdf'>
                     <span className="absolute top-0 left-0 w-48 h-48 -mt-1 transition-all duration-700 ease-in-out rotate-45 -translate-x-56 -translate-y-24 bg-primary opacity-100 group-hover:-translate-x-2"></span>
-                    <span className="relative w-full text-left text-off-white font-lexendExa transition-colors duration-700 ease-in-out group-hover:text-dark-black">RESUME</span>
+                    <span className="relative w-full text-left text-dark-black font-lexendExa transition-colors duration-700 ease-in-out group-hover:text-off-white">RESUME</span>
                     <span className="absolute inset-0 border-2 border-primary rounded-full"></span>
                 </a>
             </div>
             
             <div className='w-auto' 
                 id='aboutContainer'>
-                <div className='grid text-light-grey font-inter gap-y-4 md:mx-10 mx-16' 
+                <div className='grid text-off-black font-inter gap-y-4 md:mx-10 mx-16' 
                     id='aboutText'>
                     <p>
                     Hey! My name is Sophia and I love creating!
@@ -43,9 +43,9 @@ const About = (): ReactNode => {
                     <h3 className='text-2xl text-secondary font-medium font-rubik tracking-wide my-3 mx-10'>
                         RECENT TECHNOLOGIES
                     </h3>
-                    <div className='grid grid-cols-3 gap-4 text-light-grey text-sm font-inter mx-10'>
+                    <div className='grid grid-cols-3 gap-4 text-dark-black text-sm font-inter mx-10'>
                         <div>
-                            <h3 className='text-off-white text-md font-semibold'>LANGUAGES</h3>
+                            <h3 className='text-tertiary text-md font-semibold mb-1'>LANGUAGES</h3>
                             <p>TypeScript</p>
                             <p>JavaScript</p>
                             <p>HTML</p>
@@ -55,13 +55,13 @@ const About = (): ReactNode => {
                             <p>SQL</p>
                         </div>
                         <div>
-                            <h3 className='text-off-white text-md font-semibold'>FRAMEWORKS</h3>
+                            <h3 className='text-tertiary text-md font-semibold mb-1'>FRAMEWORKS</h3>
                             <p>Tailwind</p>
                             <p>React</p>
                             <p>Node</p>
                         </div>
                         <div>
-                            <h3 className='text-off-white text-md font-semibold'>TOOLS</h3>
+                            <h3 className='text-tertiary text-md font-semibold mb-1'>TOOLS</h3>
                             <p>Git & GitHub</p>
                             <p>Jira</p>
                             <p>Node</p>

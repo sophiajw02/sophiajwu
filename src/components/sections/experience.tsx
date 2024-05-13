@@ -27,15 +27,17 @@ const Experience = (): ReactNode => {
                             UKG
                         </a>
                     </h3>
-                    <p className='text-off-white text-light-grey text-sm font-rubik tracking-wide mx-10'>
+                    <p className='text-off-white text-sm font-rubik tracking-wide mx-10'>
                         May 2023 - August 2023</p>
-                    <ul className='list-disc text-off-white text-sm font-rubik tracking-wide my-3 mx-16'>
-                        <li>
-                            Worked on the Core Payroll team, quality testing and ensuring payrolls features worked as properly intended for over 75,000+ client companies
+                    <ul className='list-disc text-off-white font-rubik tracking-wide my-3 mx-16'>
+                        <li className='mb-1'>
+                        Worked on quality testing and ensuring payrolls features worked as properly intended for over 75,000+ client companies.
                         </li>
-                        <li>Introduced localization for many pages within the UKG Pro product</li>
-                        <li>
-                            Implemented unit, integration, and automated tests on various features, using C#, Microsoft SQL Server, and NUnit Testing Framework and resolved issues with both automated and manual tests, leading to 15% more issues being resolved prior to release.
+                        <li className='mb-1'>
+                            Implemented unit, integration, and automated tests on various features in the UKG Pro product, using C#, Microsoft SQL Server, and NUnit Testing Framework.  and resolved issues with both automated and manual tests, leading to 15% more issues being resolved prior to release.
+                        </li>
+                        <li className='mb-1'>
+                            Proactively identified and resolved issues with both automated and manual tests, ensuring the highest quality standards and maintaining seamless user experiences prior to releases.
                         </li>
                     </ul>
                 </div>

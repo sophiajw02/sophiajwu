@@ -12,7 +12,7 @@ const Contact = (): ReactNode => {
                 Wanna say hello?
             </h2>
 
-            <div className='text-light-grey text-center font-inter md:mx-32 mx-32 mb-8' 
+            <div className='text-dark-black text-lg text-center font-inter md:mx-32 mx-32 mb-8' 
                 id='contactText'>
                 <p className='mb-4'>
                 I'm currently looking for full-time opportunities. If you think I'd be a good fit for your team, feel free to reach out to me!
@@ -26,7 +26,7 @@ const Contact = (): ReactNode => {
                     id='email-link'
                     href={`mailto:${'sophiajwu02@gmail.com'}`}>
                     <span className="absolute top-0 left-0 w-48 h-48 -mt-1 transition-all duration-700 ease-in-out rotate-45 -translate-x-56 -translate-y-24 bg-primary opacity-100 group-hover:-translate-x-2"></span>
-                    <span className="relative w-full text-center text-off-white font-lexendExa transition-colors duration-700 ease-in-out group-hover:text-dark-black">Say Hello</span>
+                    <span className="relative w-full text-center text-dark-black font-lexendExa transition-colors duration-700 ease-in-out group-hover:text-off-white">Say Hello</span>
                     <span className="absolute inset-0 border-2 border-primary rounded-full"></span>
             </a>
             
