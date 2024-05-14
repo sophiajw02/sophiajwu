@@ -2,7 +2,7 @@ import { ReactNode} from 'react';
 
 const Experience = (): ReactNode => {
     return (
-        <div className="flex flex-col xl:max-w-5xl md:max-w-xl pt-24" 
+        <div className="flex flex-col xl:max-w-7xl md:max-w-xl pt-24" 
             id="experience">
             <div className='flex justify-between items-center mb-5 w-auto md:mx-5 mx-10' 
                 id='experienceHeader'>
@@ -16,7 +16,7 @@ const Experience = (): ReactNode => {
                 id='experienceUKG'
                 style={{ flexGrow: 1 }}>
                 <img
-                    className="h-96 w-full rounded-t-lg object-cover md:h-auto md:w-60 md:!rounded-none md:!rounded-s-lg"
+                    className="h-96 rounded-t-lg object-cover md:h-auto md:w-96 md:!rounded-none md:!rounded-s-lg"
                     src='\images\ukg_logo.jpg'
                     alt='ukg logo' 
                 />

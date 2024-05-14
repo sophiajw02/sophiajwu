@@ -7,12 +7,12 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
 
     return (
       <>
-        <div className='bg-background min-h-screen justify-between'
+        <div className='bg-background min-h-screen'
           id="root"
         >
             <Nav isHome={isHome} />
             <Social />
-            <div className='flex flex-col justify-center items-center grid' 
+            <div className='flex flex-col justify-center items-center' 
               id="content"
             >
               {children}

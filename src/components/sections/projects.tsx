@@ -4,7 +4,7 @@ import { Icon, IconGitHub } from '@components/icons';
 const Experience = (): ReactNode => {
     
     return (
-        <div className='flex flex-col xl:max-w-5xl md:max-w-xl pt-24' 
+        <div className='flex flex-col xl:max-w-7xl md:max-w-xl pt-24' 
             id='projects'>
             <div className='flex justify-between items-center mb-3 w-auto md:mx-5 mx-10' 
                 id='projectsHeader'>
@@ -24,7 +24,7 @@ const Experience = (): ReactNode => {
             <div className="flex flex-col lg:flex-row rounded-lg bg-tertiary shadow-secondary-1 mx-10 my-3 shadow-md"
                 id='project_gtmarket'>
                 <img
-                    className="h-96 w-auto lg:h-auto lg:w-80 rounded-t-lg object-cover lg:!rounded-none lg:!rounded-s-lg"
+                    className="h-96 w-auto md:h-auto md:w-96 rounded-t-lg object-cover md:!rounded-none md:!rounded-s-lg"
                     src='\images\gtmarketplace.png'
                     alt='georgia tech marketplace' 
                 />
@@ -62,7 +62,7 @@ const Experience = (): ReactNode => {
             <div className="flex flex-col flex-grow rounded-lg bg-tertiary text-surface shadow-secondary-1 mx-10 my-3 md:flex-row shadow-md"
                 id='project_py4engineers'>
                 <img
-                    className="h-96 w-full rounded-t-lg object-cover md:h-auto md:w-80 md:!rounded-none md:!rounded-s-lg"
+                    className="h-96 w-auto md:h-auto md:w-96 rounded-t-lg object-cover md:!rounded-none md:!rounded-s-lg"
                     src='\images\python4engineers.jpg'
                     alt='python 4 engineers learning platform' 
                 />
@@ -96,7 +96,7 @@ const Experience = (): ReactNode => {
             <div className="flex flex-col flex-grow rounded-lg bg-tertiary text-surface shadow-secondary-1 mx-10 my-3 md:flex-row shadow-md"
                 id='project_escape_to_cheese'>
                 <img
-                    className="h-96 w-full rounded-t-lg object-cover md:h-auto md:w-80 md:!rounded-none md:!rounded-s-lg"
+                    className="h-96 w-auto md:h-auto md:w-96 rounded-t-lg object-cover md:!rounded-none md:!rounded-s-lg"
                     src='\images\escapetocheese.jpg'
                     alt='escape to cheese unity game' 
                 />

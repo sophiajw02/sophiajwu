@@ -5,7 +5,7 @@ const About = (): ReactNode => {
     
 
     return (
-        <div className="flex flex-col xl:max-w-5xl md:max-w-xl pt-24" 
+        <div className="flex flex-col h-full xl:max-w-5xl md:max-w-xl pt-24" 
             id="about">
             <div className='flex justify-between items-center mb-3 w-auto md:mx-5 mx-10' 
                 id='aboutHeader'>
